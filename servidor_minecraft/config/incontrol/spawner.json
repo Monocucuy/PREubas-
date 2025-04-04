@@ -18,18 +18,7 @@
       "minheight": 64
     } 
   }, 
-  {
-    "mob": "minecraft:skeleton",
-    "conditions":{
-    "dimension": "minecraft:overworld",
-    "mincount": {
-      "amount": 50,
-      "hostile": true,
-      "perplayer": true
-    }
-    },
-    "result": "deny"
-  },
+
   {
     "mob": [  
       "minecraft:zombie" 
