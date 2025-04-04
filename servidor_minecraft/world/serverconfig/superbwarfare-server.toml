@@ -1,0 +1,359 @@
+
+[spawn]
+	#Set true to allow Senpai to spawn naturally
+	spawn_senpai = false
+
+[projectile]
+	#Set true to allow projectiles to destroy glasses
+	allow_projectile_destroy_glass = false
+
+[explosion]
+	#The percentage of explosion damage you take behind cover
+	#Range: 0 ~ 100
+	explosion_penetration_ratio = 15
+	#Set true to allow Explosion to destroy blocks
+	explosion_destroy = true
+
+	[explosion."RGO Grenade"]
+		#The explosion damage of RGO grenade
+		#Range: 1 ~ 10000000
+		rgo_grenade_explosion_damage = 90
+		#The explosion radius of RGO grenade
+		#Range: 1 ~ 50
+		rgo_grenade_explosion_radius = 5
+
+	[explosion."M67 Grenade"]
+		#The explosion damage of M67 grenade
+		#Range: 1 ~ 10000000
+		m67_grenade_explosion_damage = 120
+		#The explosion radius of M67 grenade
+		#Range: 1 ~ 50
+		m67_grenade_explosion_radius = 6
+
+	[explosion."Mortar Shell"]
+		#The explosion damage of Mortar shell
+		#Range: 1 ~ 10000000
+		mortar_shell_explosion_damage = 160
+		#The explosion radius of Mortar shell
+		#Range: 1 ~ 50
+		mortar_shell_explosion_radius = 9
+
+	[explosion."Drone Kamikaze"]
+		#The hit damage of Drone Kamikaze
+		#Range: 1 ~ 10000000
+		drone_kamikaze_hit_damage = 200
+		#The hit damage of Drone Kamikaze with C4
+		#Range: 1 ~ 10000000
+		drone_kamikaze_hit_damage_c4 = 150
+		#The hit damage of Drone Kamikaze with RPG
+		#Range: 1 ~ 10000000
+		drone_kamikaze_hit_damage_rpg = 270
+		#The explosion damage of Drone Kamikaze
+		#Range: 1 ~ 10000000
+		drone_kamikaze_explosion_damage = 160
+		#The explosion radius of Drone Kamikaze
+		#Range: 1 ~ 50
+		drone_kamikaze_explosion_radius = 9
+
+	[explosion.C4]
+		#The explosion damage of C4
+		#Range: > 1
+		c4_explosion_damage = 300
+		#The explosion countdown of C4
+		#Range: > 1
+		c4_explosion_countdown = 514
+		#The explosion radius of C4
+		#Range: > 1
+		c4_explosion_radius = 10
+
+	[explosion."Wire Guide Missile"]
+		#The damage of wire guide missile
+		#Range: > 1
+		wire_guide_missile_damage = 700
+		#The explosion damage of wire guide missile
+		#Range: > 1
+		wire_guide_missile_explosion_damage = 60
+		#The explosion radius of wre guide missile
+		#Range: > 1
+		wire_guide_missile_explosion_radius = 6
+
+	[explosion.RPG]
+		#The explosion damage of RPG in the drone
+		#Range: > 1
+		rpg_explosion_damage = 130
+		#The explosion radius of RPG in the drone
+		#Range: > 1
+		rpg_explosion_radius = 10
+
+[vehicle]
+	#Allows vehicles to destroy blocks via collision
+	collision_destroy_blocks = false
+	#Allows vehicles to destroy hard blocks via collision
+	collision_destroy_hard_blocks = false
+	#Allow vehicles to pick up items
+	vehicle_item_pickup = true
+	#List of entities that can be damaged by collision
+	collision_entity_whitelist = []
+
+	[vehicle.repair]
+		#The cooldown of vehicle repair. Set a negative value to disable vehicle repair
+		#Range: -1 ~ 10000000
+		repair_cooldown = 200
+		#The amount of health restored per tick when a vehicle is self-repairing
+		#Range: 0.0 ~ 1.0E7
+		repair_amount = 0.05
+
+	[vehicle.mk_42]
+		#The health of MK-42
+		#Range: 1 ~ 10000000
+		mk_42_hp = 350
+		#The AP shell damage of MK-42
+		#Range: 1 ~ 10000000
+		mk_42_ap_damage = 450
+		#The AP shell explosion damage of MK-42
+		#Range: 1 ~ 10000000
+		mk_42_ap_explosion_damage = 120
+		#The AP shell explosion radius of MK-42
+		#Range: 1 ~ 50
+		mk_42_ap_explosion_radius = 3
+		#The HE shell damage of MK-42
+		#Range: 1 ~ 10000000
+		mk_42_he_damage = 150
+		#The HE shell explosion damage of MK-42
+		#Range: 1 ~ 10000000
+		mk_42_he_explosion_damage = 200
+		#The HE shell explosion radius of MK-42
+		#Range: 1 ~ 50
+		mk_42_he_explosion_radius = 10
+
+	[vehicle.mle_1934]
+		#The health of MLE-1934
+		#Range: 1 ~ 10000000
+		mle_1934_hp = 350
+		#The AP shell damage of MLE-1934
+		#Range: 1 ~ 10000000
+		mle_1934_ap_damage = 500
+		#The AP shell explosion damage of MLE-1934
+		#Range: 1 ~ 10000000
+		mle_1934_ap_explosion_damage = 150
+		#The AP shell explosion radius of MLE-1934
+		#Range: 1 ~ 50
+		mle_1934_ap_explosion_radius = 4
+		#The HE shell damage of MLE-1934
+		#Range: 1 ~ 10000000
+		mle_1934_he_damage = 180
+		#The HE shell explosion damage of MLE-1934
+		#Range: 1 ~ 10000000
+		mle_1934_he_explosion_damage = 240
+		#The HE shell explosion radius of MLE-1934
+		#Range: 1 ~ 50
+		mle_1934_he_explosion_radius = 12
+
+	[vehicle.HeavyMachineGun]
+		#The gun damage of 12.7mm HMG
+		#Range: 1 ~ 10000000
+		heavy_machine_gun_damage = 25
+
+	[vehicle.annihilator]
+		#The health of Annihilator
+		#Range: 1 ~ 10000000
+		annihilator_hp = 1200
+		#The energy cost of Annihilator per shoot
+		#Range: > 0
+		annihilator_shoot_cost = 2000000
+		#The max energy storage of Annihilator
+		#Range: > 0
+		annihilator_max_energy = 20000000
+
+	[vehicle.laser_tower]
+		#The health of Laser Tower
+		#Range: 1 ~ 10000000
+		laser_tower_hp = 100
+		#The damage of Laser Tower
+		#Range: 1 ~ 10000000
+		laser_tower_damage = 15
+		#The cooldown time(ticks) of Laser Tower
+		#Range: 15 ~ 10000000
+		laser_tower_cooldown = 40
+		#The energy cost of Laser Tower per shoot
+		#Range: > 0
+		laser_tower_shoot_cost = 5000
+		#The max energy storage of Laser Tower
+		#Range: > 0
+		laser_tower_max_energy = 500000
+
+	[vehicle.speedboat]
+		#The health of Speedboat
+		#Range: 1 ~ 10000000
+		speedboat_hp = 200
+		#The energy cost of Speedboat per tick
+		#Range: > 0
+		speedboat_energy_cost = 16
+		#The max energy storage of Speedboat
+		#Range: > 0
+		speedboat_max_energy = 500000
+
+	[vehicle.wheelchair]
+		#The health of the wheelchair
+		#Range: 1 ~ 10000000
+		wheelchair_hp = 30
+		#The jump energy cost of the wheelchair
+		#Range: > 0
+		wheelchair_jump_energy_cost = 400
+		#The move energy cost of the wheelchair
+		#Range: > 0
+		wheelchair_move_energy_cost = 1
+		#The max energy storage of the wheelchair
+		#Range: > 0
+		wheelchair_max_energy = 24000
+
+	[vehicle.ah_6]
+		#The health of AH-6
+		#Range: 1 ~ 10000000
+		ah_6_hp = 250
+		#The min energy cost of AH-6 per tick
+		#Range: > 0
+		ah_6_min_energy_cost = 64
+		#The max energy cost of AH-6 per tick
+		#Range: > 0
+		ah_6_max_energy_cost = 128
+		#The max energy storage of AH-6
+		#Range: > 0
+		ah_6_max_energy = 5000000
+		#The cannon damage of AH-6
+		#Range: 1 ~ 10000000
+		ah_6_cannon_damage = 20
+		#The rocket damage of AH-6
+		#Range: 1 ~ 10000000
+		ah_6_rocket_damage = 80
+		#The rocket explosion damage of AH-6
+		#Range: 1 ~ 10000000
+		ah_6_rocket_explosion_damage = 40
+		#The rocket explosion radius of AH-6
+		#Range: 1 ~ 10000000
+		ah_6_rocket_explosion_radius = 5
+
+	[vehicle.lav_150]
+		#The health of Lav_150
+		#Range: 1 ~ 10000000
+		lav_150_hp = 250
+		#The energy cost of Lav_150 per tick
+		#Range: > 0
+		lav_150_energy_cost = 64
+		#The max energy storage of Lav_150
+		#Range: > 0
+		lav_150_max_energy = 5000000
+		#The cannon damage of Lav_150
+		#Range: 1 ~ 10000000
+		lav_150_cannon_damage = 45
+		#The rocket explosion damage of Lav_150
+		#Range: 1 ~ 10000000
+		lav_150_cannon_explosion_damage = 12
+		#The rocket explosion radius of Lav_150
+		#Range: 1.0 ~ 1.0E7
+		lav_150_cannon_explosion_radius = 3.0
+
+	[vehicle.tom_6]
+		#The health of Tom_6
+		#Range: 1 ~ 10000000
+		tom_6_hp = 40
+		#The energy cost of Tom_6 per tick
+		#Range: > 0
+		tom_6_energy_cost = 16
+		#The max energy storage of Tom_6
+		#Range: > 0
+		tom_6_max_energy = 100000
+		#The Melon Bomb explosion damage of Tom_6
+		#Range: 1 ~ 10000000
+		tom_6_bomb_explosion_damage = 500
+		#The Melon Bomb explosion radius of Tom_6
+		#Range: 1.0 ~ 1.0E7
+		tom_6_bomb_explosion_radius = 10.0
+
+	[vehicle.bmp_2]
+		#The health of Bmp_2
+		#Range: 1 ~ 10000000
+		bmp_2_hp = 300
+		#The energy cost of Bmp_2 per tick
+		#Range: > 0
+		bmp_2_energy_cost = 64
+		#The max energy storage of Bmp_2
+		#Range: > 0
+		bmp_2_max_energy = 5000000
+		#The cannon damage of Bmp_2
+		#Range: 1 ~ 10000000
+		bmp_2_cannon_damage = 55
+		#The cannon explosion damage of Bmp_2
+		#Range: 1 ~ 10000000
+		bmp_2_cannon_explosion_damage = 15
+		#The cannon explosion radius of Bmp_2
+		#Range: 1.0 ~ 1.0E7
+		bmp_2_cannon_explosion_radius = 3.2
+
+	[vehicle.yx_100]
+		#The health of Yx_100
+		#Range: 1 ~ 10000000
+		yx_100_hp = 500
+		#The energy cost of Yx_100 per tick
+		#Range: > 0
+		yx_100_energy_cost = 128
+		#The energy cost of Yx_100 per shoot
+		#Range: > 0
+		yx_100_shoot_cost = 24000
+		#The max energy storage of Yx_100
+		#Range: > 0
+		yx_100_max_energy = 20000000
+		#The cannon damage of Yx_100
+		#Range: 1 ~ 10000000
+		yx_100_ap_cannon_damage = 500
+		#The cannon explosion damage of Yx_100
+		#Range: 1 ~ 10000000
+		yx_100_ap_cannon_explosion_damage = 100
+		#The cannon explosion radius of Yx_100
+		#Range: 1.0 ~ 1.0E7
+		yx_100_ap_cannon_explosion_radius = 4.0
+		#The cannon damage of Yx_100
+		#Range: 1 ~ 10000000
+		yx_100_he_cannon_damage = 150
+		#The cannon explosion damage of Yx_100
+		#Range: 1 ~ 10000000
+		yx_100_he_cannon_explosion_damage = 150
+		#The cannon explosion radius of Yx_100
+		#Range: 1.0 ~ 1.0E7
+		yx_100_he_cannon_explosion_radius = 10.0
+
+	[vehicle.prism_tank]
+		#The health of PrismTank
+		#Range: 1 ~ 10000000
+		prism_tank_hp = 400
+		#The max energy storage of PrismTank
+		#Range: > 0
+		prism_tank_energy = 20000000
+		#The energy cost of PrismTank per tick
+		#Range: > 0
+		prism_tank_energy_cost = 96
+		#The Laser Damage of PrismTank Mode 1
+		#Range: > 0
+		prism_tank_damage_mode_1 = 350
+		#The energy cost of PrismTank Mode 1
+		#Range: 1 ~ 10000000
+		prism_tank_shoot_cost_mode_1 = 100000
+		#The laser AOE damage of PrismTank
+		#Range: 1 ~ 10000000
+		prism_tank_aoe_damage = 72
+		#The laser AOE radius of PrismTank
+		#Range: 1 ~ 10000000
+		prism_tank_aoe_radius = 12
+		#The Laser Damage of PrismTank Mode 2 per tick
+		#Range: 1 ~ 10000000
+		prism_tank_damage_mode_2 = 15
+		#The energy cost of PrismTank Mode 2 per tick
+		#Range: 1 ~ 10000000
+		prism_tank_shoot_cost_mode_2 = 5000
+
+[misc]
+	#Set true to enable tactical sprint
+	allow_tactical_sprint = true
+	#Set true to enable kill feedback sending
+	send_kill_feedback = true
+

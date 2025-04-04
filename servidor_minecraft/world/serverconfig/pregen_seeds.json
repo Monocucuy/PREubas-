@@ -1,0 +1,158 @@
+{
+	"level_seeds": [
+		{
+			"dim": "ad_astra:venus",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:gaster_dimension",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:level_0",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "the_deep_void:deep_void",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:boiler_room_dimension",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "the_deeper_void:void_dimension",
+			"seed": 2610278424675435472
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "ad_astra:venus",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:gaster_dimension",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:level_0",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "the_deep_void:deep_void",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "boh:boiler_room_dimension",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 2610278424675435472
+		},
+		{
+			"dim": "the_deeper_void:void_dimension",
+			"seed": 2610278424675435472
+		}
+	]
+}

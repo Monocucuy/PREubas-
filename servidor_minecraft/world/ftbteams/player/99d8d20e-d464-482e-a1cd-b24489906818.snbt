@@ -1,0 +1,17 @@
+{
+	id: "99d8d20e-d464-482e-a1cd-b24489906818"
+	type: "player"
+	player_name: "Monocucuy"
+	ranks: {
+		99d8d20e-d464-482e-a1cd-b24489906818: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Monocucuy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFBA"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
